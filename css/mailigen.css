@@ -1,0 +1,163 @@
+/**
+ * ---------------------
+ * MAILIGEN WIDGET
+ * ---------------------
+*/
+
+.MailigenWidget h3,
+.MailigenWidget input {
+    font-family: arial, tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+}
+
+.MailigenWidget h3 {
+    margin: 8px 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.MailigenWidget form,
+.MailigenWidget dl,
+.MailigenWidget dt,
+.MailigenWidget dd {
+    margin: 0;
+    padding: 0;
+}
+
+.MailigenWidget dt {
+    font-weight: 200;
+    margin-bottom: 4px;
+}
+
+.MailigenWidget dd {
+    margin-bottom: 8px;
+}
+
+.MailigenWidget input[type=text] {
+    width: 188px;
+    padding: 5px;
+}
+
+.MailigenWidget input[type=button] {
+    display: block;
+    margin: 15px 0 0 -1px;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+.MailigenWidget div.mg-error {
+    margin-bottom: 4px;
+    font-size: 11px;
+    line-height: 15px;
+    color: red;
+}
+.MailigenWidget div.mg-error-box {
+    background:#f6d0d0 url("../img/error-box-bg.png") 7px center no-repeat;
+    margin:0 0 13px 0;
+    padding:7px 28px;
+
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+    -moz-background-clip:padding;
+    -webkit-background-clip:padding-box;
+    background-clip:padding-box;
+
+    border-top:solid 1px #f49d9d;
+    border-left:solid 1px #f49d9d;
+    border-right:solid 1px #f49d9d;
+    border-bottom:solid 1px #f49d9d;
+}
+.MailigenWidget div.mg-error-box p{
+    font-size:11px;
+    line-height:15px;
+    color:#ff0000;
+    margin: 0;
+}
+
+.MailigenWidget .signup-thanks-box {
+    margin: 0;
+    padding: 0;
+}
+.MailigenWidget .signup-thanks-box h2 {
+    margin-bottom: 12px;
+}
+.MailigenWidget .signup-thanks-box p {
+    margin: 0 !important;
+}
+.MailigenWidget .signup-thanks-box p+p {
+    margin-top: 6px !important;
+}
+
+.MailigenWidget .mg_waiting {
+    display: none;
+    float: right;
+    width: 16px;
+    height: 17px;
+    margin: 0 -5px 0 5px;
+    background: url("../img/loader2_16x17.gif") no-repeat 0 0;
+}
+
+
+/**
+ * ---------------------
+ * MAILIGEN OPTIONS
+ * ---------------------
+*/
+
+.MailigenWidgetSettings h2 {
+    margin: 5px 0 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.MailigenWidgetSettings .form-table {
+    border-collapse: collapse;
+    width: 470px;
+    margin-top: 0;
+}
+
+.MailigenWidgetSettings .form-table th {
+    padding: 0;
+    width: 140px;
+    line-height: 24px;
+}
+
+.MailigenWidgetSettings .form-table td {
+    padding: 0 ;
+}
+
+.MailigenWidgetSettings .form-table td input.regular-text,
+.MailigenWidgetSettings .form-table td select.select {
+    width: 300px;
+}
+
+.MailigenWidgetSettings .form-table label {
+    display: inline-block;
+    width: 200px;
+    margin: 3px 0;
+}
+
+.MailigenWidgetSettings .form-table span.description {
+    display: block;
+    width: 280px;
+    padding: 5px 10px;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.MailigenWidgetSettings .settings-error {
+    margin-top: 20px !important;
+}
+
+.MailigenWidgetSettings .mg-preloader {
+    width: 220px;
+    height: 19px;
+    margin: 20px 0 0 135px;
+    background: url("../img/loading.gif") no-repeat 0 0;
+}
